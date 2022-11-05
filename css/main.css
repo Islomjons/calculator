@@ -1,0 +1,69 @@
+body {
+    background-color: #cf98f1;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.back {
+    position: absolute;
+    background-color: black;
+    width: 250px;
+    height: 320px;
+    left: 40%;
+    top: 200px;
+    border-radius: 10%;
+}
+
+.readonly {
+    position: relative;
+    width: 220px;
+    left: 10px;
+    top: 20px;
+    height: 40px;
+}
+
+.read__input {
+    border-radius: 10px;
+}
+
+.readonly input {
+    position: relative;
+    left: 2px;
+    top: 2px;
+    height: 35px;
+    color: black;
+    background-color: #ffe6f7;
+    font-size: 21px;
+    text-align: justify;
+}
+
+.wrapper {
+    position: relative;
+    top: 30px;
+}
+
+.button {
+    width: 41px;
+    height: 32px;
+    border: none;
+    margin-left: 14px;
+    border-radius: 50px;
+    box-shadow: 0px, 0px, 0px, 10px;
+}
+
+.button.one {
+    color: #ffff;
+    background-color: #c89e29;
+}
+
+.button.two {
+    color: #ffff;
+    background-color: #342525;
+}
